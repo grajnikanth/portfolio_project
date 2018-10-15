@@ -13,4 +13,4 @@ index.html file contains all the html related to the project
 
 To install just clone or download the files.
 
-The command to clone these files is git clone https://github.com/grajnikanth/portfolio_project.git
+The command to clone these files is: git clone https://github.com/grajnikanth/portfolio_project.git
