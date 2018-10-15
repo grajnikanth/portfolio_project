@@ -1,0 +1,104 @@
+/*Major breakpoints for responsive design varies for each of the blocks but overall
+I am able to group them into widths of 1050px, 900px, 725px, 525px*/
+
+@media screen and (min-width: 725px) and (max-width: 1050px) {
+  .header-logo {
+    width: 6vw;
+  }
+}
+
+@media screen and (min-width: 525px) and (max-width: 725px) {
+  .header-logo {
+    width: 6.5vw;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .name-title {
+    font-size: 10px;
+  }
+
+  .portfolio-top-text {
+    font-size: 25px;
+  }
+
+  .proj-text {
+    font-size: 12px;
+  }
+
+/*side divs margin were adjusted at widths < 725px to make them appear closer together
+in a column-drop display*/
+  .side1, .side2, .side3 {
+    margin: 0 5% 0 50%;
+  }
+
+  .side-text {
+    margin: 0 0 0.5em 0;
+    text-align: left;
+  }
+
+  .side-text-span {
+    font-size: 9px;
+  }
+
+}
+
+@media screen and (min-width: 725px) and (max-width: 900px) {
+  .name {
+    font-size: 30px;
+  }
+
+  .name-title {
+    font-size: 12px;
+  }
+
+  .side-text-span {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 525px) {
+  .header-logo {
+    width: 7.5vw;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .name-title {
+    font-size: 9px;
+  }
+
+  .portfolio-top-text {
+    font-size: 25px;
+  }
+
+
+  .side1, .side2, .side3 {
+    margin: 0 5% 0 50%;
+  }
+
+  .side-text {
+    margin: 0 0 0.5em 0;
+    text-align: left;
+  }
+
+  .side-text-span {
+    font-size: 9px;
+  }
+
+  .proj-text {
+    font-size: 12px;
+  }
+
+/*portfolio-projs div displayed as column drop at width less than 525px by controlling
+width property*/
+  .portfolio1, .portfolio2, .portfolio3 {
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+
+}

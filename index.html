@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Portfolio</title>
+<!-- Two stylesheets were used: main.css for typical styling, responsive.css for responsive styling -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+  </head>
+
+  <body>
+
+<!-- The webpage was divided into 4 blocks to control display. Responsive pattern - "Mostly Fluid".
+Following are the blocks used: Header, side-div, main-div and portfolio-projs -->
+
+<!-- Header block for Logo and Titles information -->
+
+    <header class="header">
+      <img class="header-logo" src="Images/udacity_logo.png" alt="Udacity Logo">
+      <p class="header-text"><span class="name">RAJ(RAJNIKANTH) GEDHADA</span> <br>
+        <span class="name-title"> BLOCKCHAIN DEVELOPER</span></p>
+      <hr>
+    </header>
+
+<!-- Side-div was used to control the left hand side images and text. Inside side-div,
+"Column-drop" responsive pattern was used. -->
+
+    <div class="side-div">
+      <div class="side1">
+          <img class="side-img" src="Images/astro_1.jpeg" alt="galaxy">
+          <p class="side-text"><span class="side-text-span"> GALAXY</span></p>
+      </div>
+      <div class="side2">
+          <img class="side-img" src="Images/astro_2.jpeg" alt="multiple galaxies">
+          <p class="side-text"><span class="side-text-span"> GALAXIES</span></p>
+      </div>
+      <div class="side3">
+          <img class="side-img" src="Images/astro_3.jpeg" alt="star birth">
+          <p class="side-text"><span class="side-text-span"> STAR-BIRTH</span></p>
+      </div>
+    </div>
+
+<!-- Main-div controls the middle large image on the webpage -->
+
+    <div class="main-div">
+      <img class="main-image" src="Images/elect.png" alt="Electrical Circuit">
+    </div>
+
+<!-- Added paragraph text and included title text (h1,h2, h3) in this paragraph per project Rubric requirement -->
+  <article class="article-style">
+    <h1 class="heading"> Introduction</h1>
+    <p class="paragraph-text"> <br>
+      HI, I am Raj Gedhada. On this webpage, I am providing information about the various programming
+      projects I have created. These projects are based on the various nano-degrees I am working
+      on through the online MOOCs courses on Udacity. At present these projects cover the skills
+      I learned which include html, css and Javascript as part of the Front End Web Developer Nanodegree.
+    </p>
+    <h3 class="heading">Projects</h3>
+    <p class="paragraph-text"> The first project I worked on is the Portfolio project. In this project I developed a
+      a webpage to showcase the html and css skills I learned. This webpage can also serve as
+      a main webpage I can use to display all the projects I worked on.
+    </p>
+  </article>
+<!-- Portfolio text is not inside of any of the display blocks it is on its own in the flow
+of the webpage -->
+
+    <p class="portfolio-top-text"> <br>Portfolio Projects</p>
+
+    <div class="portfolio-projs">
+      <div class="portfolio1">
+        <img class="portfolio-img" src="Images/electrons.png" alt="electrons">
+        <p class="proj-text">ELECTRONS<br>
+          <a href="https://www.google.com">https://www.google.com</a>
+        </p>
+      </div>
+      <div class="portfolio2">
+        <img class="portfolio-img" src="Images/math.jpeg" alt="Math Equations">
+        <p class="proj-text">MATH<br>
+          <a href="https://www.yahoo.com">https://www.yahoo.com</a>
+        </p>
+      </div>
+      <div class="portfolio3">
+        <img class="portfolio-img" src="Images/blockchain.jpg" alt="Blockchain Image">
+        <p class="proj-text">BLOCKCHAIN<br>
+          <a href="https://www.ethereum.org">https://www.ethereum.org</a>
+        </p>
+      </div>
+    </div>
+
+  <footer>
+    <p>All Images obtained from google image search/<a href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
+  </footer>
+  </body>
+</html>
