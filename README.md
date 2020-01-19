@@ -1,4 +1,4 @@
-# Web Development Project 1 - Portfolio Website Project
+# Web Development Project 1 - Portfolio Website
 This project is part of the Udacity Front End Web Developement Nanodegree. For this project, I built a portfolio of projects website. A mockup of the website design was provided as a PDF-file, and I replicated that design in HTML and CSS. The website was developed to be responsive that will display images, descriptions and links to each of the portfolio projects. 
 
 ## General Information
